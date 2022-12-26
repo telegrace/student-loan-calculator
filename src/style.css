@@ -1,12 +1,22 @@
 :root {
+  --background: #c5e4e7;
+  --primary: #00474b;
+  --secondary: #30c3b0;
   font-family: "Courier New", Courier, monospace;
   font-size: 16px;
   line-height: 24px;
   font-weight: 400;
-  background-color: #c5e4e7;
-
+  background-color: var(--background);
   font-synthesis: none;
   text-rendering: optimizeLegibility;
   -webkit-font-smoothing: antialiased;
   -webkit-text-size-adjust: 100%;
+}
+
+.primary {
+  background-color: var(--primary);
+}
+
+.secondary {
+  background-color: var(--secondary);
 }
